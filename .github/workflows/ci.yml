@@ -21,6 +21,7 @@ jobs:
           sudo apt install speedtest-cli
           speedtest-cli
 
+
           # getent ahostsv4 ioswy.com
           # IP=$(getent ahostsv4 ioswy.com | awk '{print $1}' | head -n 1)
           # echo $IP
